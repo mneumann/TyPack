@@ -20,6 +20,7 @@ TyPack features:
 
 * Sized typed arrays (only of primary types u8, i8, u16, i16, u32, i32, u64, i64, f32, f64). This also means, that parts 
   of a TyPack file can be mmap'ed.
+* 64-bit sized arrays.
 * Structs and Tuples.
 * Unsized arrays: [ ... ]
 * Unsized maps: { ... }
@@ -29,5 +30,6 @@ TyPack features:
 * Tries to use control sequences that are "human-readable".
 * Always parsable
 * TyPack starts with a version specification, so that we are free to make incompatible changes later on.
-
+* Specifically tailored for Rust, but with interoperability in mind (Ruby, C++, ...)
+* 
 [1]: http://www.msgpack.org/
