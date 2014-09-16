@@ -20,9 +20,12 @@ TyPack features:
 
 * Sized typed arrays (only of primary types u8, i8, u16, i16, u32, i32, u64, i64, f32, f64). This also means, that parts 
   of a TyPack file can be mmap'ed.
+* Structs and Tuples.
 * Unsized arrays: [ ... ]
 * Unsized maps: { ... }
 * Byte-order agnostic...
 * ...
+* Maybe something like decimal "string" representation of arbitrary sized numerics.
+* Tries to use control sequences that are "human-readable".
 
 [1]: http://www.msgpack.org/
