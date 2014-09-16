@@ -27,5 +27,6 @@ TyPack features:
 * ...
 * Maybe something like decimal "string" representation of arbitrary sized numerics.
 * Tries to use control sequences that are "human-readable".
-
+* Always parsable
+* 
 [1]: http://www.msgpack.org/
