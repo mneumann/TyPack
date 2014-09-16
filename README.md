@@ -16,4 +16,13 @@ Efficiently typed serialization format (in the spirit of [Msgpack][1]).
 TyPack tries to overcome many of these shortcomings while being very similar in both the serialization format used and the 
 philosophy of msgpack.
 
+TyPack features:
+
+* Sized typed arrays (only of primary types u8, i8, u16, i16, u32, i32, u64, i64, f32, f64). This also means, that parts 
+  of a TyPack file can be mmap'ed.
+* Unsized arrays: [ ... ]
+* Unsized maps: { ... }
+* Byte-order agnostic...
+* ...
+
 [1]: http://www.msgpack.org/
